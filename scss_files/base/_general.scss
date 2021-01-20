@@ -1,0 +1,23 @@
+// ********************************************************************************//
+// ******  All general styles goes here ******************//
+// ********************************************************************************//
+
+@include font-face($roboto-regular, $roboto-regular-font-path, $weight: normal, $style: normal, $exts: ttf woff);
+@include font-face($nunito-sans, $nunito-sans-font-path, $weight: normal, $style: normal, $exts: woff2 woff);
+@include font-face($lato-regular, $lato-regular-font-path, $weight: normal, $style: normal, $exts: woff2 woff);
+@include font-face($sniglet-regular, $sniglet-regular-font-path, $weight: normal, $style: normal, $exts: woff2 woff);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font : {
+    family: $font-family-base;
+    size: $font-size-base;
+    weight: 400;
+  }
+}
+

@@ -1,0 +1,19 @@
+//  --- BootstrapVue Custom SCSS --- //
+
+// ****************************************************************//
+// Vue Boostrap related imports - Just import what is needed
+// ****************************************************************//
+
+// Include variables and utilities first
+@import "~bootstrap-vue/src/variables";
+@import "~bootstrap-vue/src/utilities";
+
+// Toaster related styles
+@import "~bootstrap-vue/src/components/toast/index.scss";
+
+// modal realtes styles
+@import "~bootstrap-vue/src/components/modal/index.scss";
+
+@import "~bootstrap-vue/src/components/dropdown/index.scss";
+
+@import "~bootstrap-vue/src/components/form-file/index.scss";

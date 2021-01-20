@@ -1,0 +1,26 @@
+//*******************************************************
+// * Variables related to Alice goes here
+// * Also, Bootstrap rleated vaaribles shall be overridden here
+//*******************************************************/
+
+// Fonts related variables goes here //
+$roboto-regular: 'roboto-regular' !default;
+$nunito-sans: 'nunito-sans-regular' !default;
+$lato-regular: 'lato-regular' !default;
+$sniglet-regular: 'sniglet-regular' !default;
+
+$font-family-base: $nunito-sans, Arial, sans-serif;
+
+// Global Paths //
+$FONTFILEURL: '../src/assets/fonts/' !default;
+$IMAGEPATH: '../src/assets/images/' !default;
+
+// Font Paths //
+$roboto-regular-font-path: $FONTFILEURL + $roboto-regular + '/' + $roboto-regular;
+$nunito-sans-font-path: $FONTFILEURL + $nunito-sans + '/' + $nunito-sans;
+$lato-regular-font-path: $FONTFILEURL + $lato-regular + '/' + $lato-regular;
+$sniglet-regular-font-path: $FONTFILEURL + $sniglet-regular + '/' + $sniglet-regular;
+
+// Color schemes
+$btn-color: #fff;
+

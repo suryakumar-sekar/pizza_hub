@@ -1,0 +1,22 @@
+// ****** GLOBAL STYLES FOR ALICE ************* //
+
+@charset 'utf-8';
+
+// ****************************************************************//
+// Boostrap mixins related imports - Just import what is need
+// ****************************************************************//
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+// *****************************************************************//
+//  generic imports here
+// *****************************************************************//
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/general';
+
+// *****************************************************************//
+//  partials imports here
+// *****************************************************************//
+@import 'partials/bootstrap-components';
