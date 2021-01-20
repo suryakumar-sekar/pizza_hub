@@ -16,13 +16,17 @@ export default new Vuex.Store({
   },
   actions: {
     changeOrderStatus({ commit }, index) {
-      console.log(index, "insidestatusindex");
       commit("OnChangeOrderStatus", index);
     }
   },
   mutations: {
+    /**
+     * 
+     * @param {*} state 
+     * @param {*} index 
+     * function to change the order status
+     */
     OnChangeOrderStatus(state, index) {
-      // console.log(state.orderDetails, index);
       let orderDeatils = state.orderDetails
       let currentOrder = orderDeatils[index]
       if(currentOrder.status == 'Received'){
@@ -34,7 +38,6 @@ export default new Vuex.Store({
       else if(currentOrder.status == 'Ready to serve'){
         currentOrder.status = 'Delivered'
       }
-      console.log(currentOrder,'current-order')
       orderDeatils[index] = currentOrder
       state.orderDetails =orderDeatils
     }
